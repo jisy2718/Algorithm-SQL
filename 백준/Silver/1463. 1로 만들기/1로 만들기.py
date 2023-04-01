@@ -1,25 +1,14 @@
-def dfs(x,count):
-    global min_count
-    # 백트래킹
-    if count > min_count:
-        return
-    
-    # 베이스라인
-    if x == 1:
-        if min_count > count:
-            min_count = count
+x = int(input())
 
-    else:
-        if x % 3 == 0:
-            dfs(x//3, count+1)
 
-        if x % 2 == 0:
-            dfs(x//2, count+1)
+cnt = [0]*(x+1) # cnt에는 index 의 숫자가 1이 되기 위해 필요한 이동횟수를 채워 넣을 것. 현재는 index가 1인 경우만 참.
 
-        dfs(x-1, count+1)
-    return
+for loc in range(2, x+1):
+    cnt[loc] = cnt[loc-1] + 1  # 1칸 이동하는 것이 무조건 가능
+    if loc%2==0: # 만약 현재 위치가 2로 나눠떨어진다면, 거리를 더 줄일 수 있음
+        cnt[loc] = min(cnt[loc//2] + 1, cnt[loc])
 
-N = int(input())
-min_count = 0xffffff
-dfs(N,0)
-print(min_count)
+    if loc%3 == 0: # 만약 현재 위치가 3으로 나눠떨어진다면, 거리를 더 줄일 수 있음
+        cnt[loc] = min(cnt[loc//3] + 1, cnt[loc])
+
+print(cnt[x]) # x를 1로 만드는데 드는 최소 횟수
