@@ -1,6 +1,8 @@
 # Leetcode-SQL
 Leetcode의 SQL 문제 풀이를 Leethub를 통해 자동 업로드합니다.
-기존에 풀었던 문제들이 README에 안내되어 있습니다.
+
+기존에 풀었던 문제들과 이 README에 안내되어 있습니다.
+
 
 # 백준
 백준hub를 통해 자동 업로드합니다.
