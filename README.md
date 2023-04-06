@@ -1,2 +1,10 @@
-# Baekjoon
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# Leetcode-SQL
+Leetcode의 SQL 문제 풀이를 Leethub를 통해 자동 업로드합니다.
+기존에 풀었던 문제들이 README에 안내되어 있습니다.
+
+# 백준
+백준hub를 통해 자동 업로드합니다.
+기존에 풀었던 문제들이 README에 안내되어 있습니다.
+
+# 알고리즘
+알고리즘에 관련된 이론과 예시 코드들이 저장되어 있습니다.
