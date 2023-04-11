@@ -12,6 +12,7 @@
 
 5. [column 2개를 1개 column으로 만들 때는 `UNION ALL` 이용](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/discuss/103812/Share-My-Accepted-SQL-Query-using-%22union-all%22-the-first-Accepted-answer-of-all) 
 
+6. [column의 누적합 구하기 - 1204번](https://leetcode.com/problems/last-person-to-fit-in-the-bus/discuss/389961/MySQL-beat-100-lol.-Of-course-since-I'm-the-first-one-to-do-this-problem.)
 
 
 ## 2. 과거문제풀이
