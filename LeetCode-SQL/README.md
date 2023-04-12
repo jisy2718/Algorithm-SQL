@@ -14,6 +14,8 @@
 
 6. [column의 누적합 구하기 - 1204번](https://leetcode.com/problems/last-person-to-fit-in-the-bus/discuss/389961/MySQL-beat-100-lol.-Of-course-since-I'm-the-first-one-to-do-this-problem.)
 
+7. [2개 table의 모든 행을 join하기 : Cross join - 1280번](https://leetcode.com/problems/students-and-examinations/submissions/) : cross join 은 table 1이 3개 행, table 2가 4개 행을 가진다면, `select * from table1 cross join table2` 하면 3x4 = 12 개의 행을 가진 table 생성됨
+
 
 ## 2. 과거문제풀이
 과거에 풀었던 문제들은 아래에서 찾아볼 수 있습니다.
