@@ -16,6 +16,7 @@
 
 7. [2개 table의 모든 행을 join하기 : Cross join - 1280번](https://leetcode.com/problems/students-and-examinations/submissions/) : cross join 은 table 1이 3개 행, table 2가 4개 행을 가진다면, `select * from table1 cross join table2` 하면 3x4 = 12 개의 행을 가진 table 생성됨
 
+8. [A컬럼 기준 7일 moving average of B컬럼](https://github.com/jisy2718/Algorithm-SQL/tree/master/LeetCode-SQL/Medium/1321-restaurant-growth)
 
 ## 2. 과거문제풀이
 과거에 풀었던 문제들은 아래에서 찾아볼 수 있습니다.
