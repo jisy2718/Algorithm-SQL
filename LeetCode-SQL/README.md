@@ -18,6 +18,13 @@
 
 8. [A컬럼 기준 7일 moving average of B컬럼](https://github.com/jisy2718/Algorithm-SQL/tree/master/LeetCode-SQL/Medium/1321-restaurant-growth)
 
+9. [날짜추출법들 : left, extract, month, year](https://leetcode.com/problems/list-the-products-ordered-in-a-period/discuss/497520/Myql-Using-Month-and-Year-function)
+    ```sql
+    # yyyy-mm-dd 꼴에서 2020년 2월 추출하고 싶다면
+    where month(order_date) = 2 and year(order_date) = '2020'
+    where left(order_date, 7) = "2020-02"
+    where extract(year_month from o.order_date) = 202002
+    ```
 ## 2. 과거문제풀이
 과거에 풀었던 문제들은 아래에서 찾아볼 수 있습니다.
 + [Leetcode 과거1](https://github.com/jisy2718/TIL/blob/master/SQL/leetcode.md), [Leetcode 과거2](https://github.com/jisy2718/leetcode#readme)
