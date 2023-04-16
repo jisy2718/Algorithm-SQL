@@ -29,6 +29,8 @@
 
 10. [정규표현식](https://github.com/jisy2718/code_sample/blob/master/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D.ipynb)
 
+11. col1을 `group by`해서 각 요소의 개수를 `count` 할 때, 개수가 0개인 것도 표기하려면 `union`이 제일 간편한 방법 : [1907번](https://leetcode.com/problems/count-salary-categories/discuss/1303611/MySQL-CASE-vs-NUION-be-careful-with-0)
+
 ## 2. 과거문제풀이
 과거에 풀었던 문제들은 아래에서 찾아볼 수 있습니다.
 + [Leetcode 과거1](https://github.com/jisy2718/TIL/blob/master/SQL/leetcode.md), [Leetcode 과거2](https://github.com/jisy2718/leetcode#readme)
