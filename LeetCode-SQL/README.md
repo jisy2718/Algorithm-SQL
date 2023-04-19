@@ -36,6 +36,10 @@
     select score, dense_rank() over (order by score desc) as `rank`  # 2등 2명일 때 그 다음이 4등되려면 rank() 사용하기 / partitioned by 추가해서 그루핑 가능
     from Scores
     ```
+    
+13. 조건에 맞는 연속된 row 나열하기
+    + [연속의 기준이 3이상에서 무한대인 경우](https://github.com/jisy2718/Algorithm-SQL/blob/master/LeetCode-SQL/Hard/0601-human-traffic-of-stadium/0601-human-traffic-of-stadium.sql)
+    + [개수가 3개와 같이 정해진 경우](https://github.com/jisy2718/Algorithm-SQL/blob/master/LeetCode-SQL/Medium/0180-consecutive-numbers/0180-consecutive-numbers.sql)
 
 ## 2. 과거문제풀이
 과거에 풀었던 문제들은 아래에서 찾아볼 수 있습니다.
