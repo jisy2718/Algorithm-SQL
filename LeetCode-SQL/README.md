@@ -43,4 +43,4 @@
 
 ## 2. 과거문제풀이
 과거에 풀었던 문제들은 아래에서 찾아볼 수 있습니다.
-+ [Leetcode 과거1](https://github.com/jisy2718/TIL/blob/master/SQL/leetcode.md), [Leetcode 과거2](https://github.com/jisy2718/leetcode#readme)
++ [과거문제풀이1](https://github.com/jisy2718/TIL/blob/master/SQL/leetcode.md), [과거문제풀이2](https://github.com/jisy2718/leetcode#readme), [내용정리](https://github.com/jisy2718/Development/blob/master/SQL/SQL.md)
