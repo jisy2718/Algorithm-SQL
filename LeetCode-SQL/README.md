@@ -1,3 +1,5 @@
+leethub에서 한 번 풀었던 문제를 다시 풀 경우, push가 이루어지지 않고 있음!
+
 ## 1. SQL팁
 
 1. [column의 min, max 값으로 column 나누기](https://stackoverflow.com/questions/55438720/how-to-divide-each-row-of-column-by-its-max-min-value-sql)
