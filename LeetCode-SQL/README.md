@@ -43,6 +43,13 @@ leethub에서 한 번 풀었던 문제를 다시 풀 경우, push가 이루어�
     + [연속의 기준이 3이상에서 무한대인 경우](https://github.com/jisy2718/Algorithm-SQL/blob/master/LeetCode-SQL/Hard/0601-human-traffic-of-stadium/0601-human-traffic-of-stadium.sql)
     + [개수가 3개와 같이 정해진 경우](https://github.com/jisy2718/Algorithm-SQL/blob/master/LeetCode-SQL/Medium/0180-consecutive-numbers/0180-consecutive-numbers.sql)
 
+
+14. JOIN 과 AND 의 사용
+    1. `INNER JOIN` + `AND` : `ON`과 `AND` 모두 만족하는 행 반환
+    2. `LEFT JOIN` + `AND` WITH LEFT TABLE : LEFT TABLE에서 `AND` 조건 만족하는 행에 RIGHT TABLE이 붙음
+    3. `LEFT JOIN` + `AND` WITH RIGHT TABLE : RIGHT TABLE에서 `AND` 조건 만족하는 행만 LEFT TABLE에 붙음
+
+
 ## 2. 과거문제풀이
 과거에 풀었던 문제들은 아래에서 찾아볼 수 있습니다.
 + [과거문제풀이1](https://github.com/jisy2718/TIL/blob/master/SQL/leetcode.md), [과거문제풀이2](https://github.com/jisy2718/leetcode#readme), [내용정리](https://github.com/jisy2718/Development/blob/master/SQL/SQL.md)
