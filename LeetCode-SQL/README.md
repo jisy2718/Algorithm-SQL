@@ -46,7 +46,7 @@ leethub에서 한 번 풀었던 문제를 다시 풀 경우, push가 이루어�
 
 14. JOIN 과 AND 의 사용
     1. `INNER JOIN` + `AND` : `ON`과 `AND` 모두 만족하는 행 반환
-    2. `LEFT JOIN` + `AND` WITH LEFT TABLE : LEFT TABLE에서 `AND` 조건 만족하는 행에 RIGHT TABLE이 붙음
+    2. `LEFT JOIN` + `AND` WITH LEFT TABLE : LEFT TABLE에서 `AND` 조건 만족하는 행에 RIGHT TABLE이 붙음(AND조건 만족안하는 LEFT TABLE의 행들도 JOIN만 안되고 같이 반환되는 것 같음)
     3. `LEFT JOIN` + `AND` WITH RIGHT TABLE : RIGHT TABLE에서 `AND` 조건 만족하는 행만 LEFT TABLE에 붙음
 
 
